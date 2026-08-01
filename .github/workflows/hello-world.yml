@@ -13,5 +13,5 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: supurazako/github-actions-hands-on@main
       - run: cat README.md
