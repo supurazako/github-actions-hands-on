@@ -1,0 +1,7 @@
+name: greet
+description: output greeting
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "Hello, GitHub Actions!"
